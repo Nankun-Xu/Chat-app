@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.controls{
+  display: flex;  
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding: 10px;
+  margin: 0;
+}
+
+.login {
+  padding-top: 5%;
+  height: 100vh;
+
+  background-color: hsla(240,7%,97%,1);
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0 20%;
+  padding: 10% 10%;
+  border-radius: 5%;
+
+  background-color:rgb(255, 189, 211);
+}
+
+.login label {
+  margin: 0.5rem;
+}
+
+.login input {
+  margin: 0.5rem;
+}
+
+.login button {
+  margin: 0.5rem;
+}
+
+.chat {
+  height: 100vh;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+  padding: 1rem;
+  height: 80%;
+  overflow: auto;
+}
+
+li {
+  list-style: none;
+}
+
+li .user {
+  margin: 0;
+}
+
+li .content {
+  padding: 2px;
+  margin: 0;
+  border: 1px solid rgb(255, 228, 232);
+  border-radius: 5px;
+
+  background-color: #ffffff6e;
+}
+
+.chat form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  padding: 10px;
+}
+
+.chat form button {
+  height: 5rem;
+  margin-left: 1rem;
+  
+  background-color: hsla(260,11%,95%,1);
+}
+
+.chat textarea {
+  width: 100%;
+
+  overflow: auto;
+  resize: none;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+.dark {
+  background-color: dimgray;
+  color: white;
+}
+
+.dark form {
+  background-color: black;
+}
+
+.light {
+  background-color: hsla(240,7%,97%,1);
+  color: black;
+}
+
+.light form {
+  background-color: rgb(255, 189, 211);
+}
+
+#controlslight{
+  background-color: rgb(255, 189, 211);
+}
+
+#controlsdark{
+  background-color: black;
+}
